@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Александр Михайлов](https://up.htmlacademy.ru/htmlcss/19/user/517761).
-* Наставник: `Неизвестно`.
+* Наставник: [Михаил Поданев](https://htmlacademy.ru/profile/mpodanev).
 
 ---
 
