@@ -8,75 +8,78 @@
       <header class="main-header">
             <img src="" "Логотип">
         <nav class="main-navigation">
-          <ul>
-          <li><!--<a href=""></a>-->Информация</li>
-          <li><!--<a href=""></a>-->Фото и Видео</li>
-          <li><!--<a href=""></a>-->Карта штата</li>
-          <li><!--<a href=""></a>-->Гостиницы</li>
+          <ul class="site-navigation">
+          <li><a href=""></a>Информация</li>
+          <li><a href=""></a>Фото и Видео</li>
+          <li><a href=""></a>Карта штата</li>
+          <li><a href=""></a>Гостиницы</li>
           </ul>  
         </nav>
      </header>
     <main class="search">
-     <table class="search-settings">
-         <tr>
-          <td>Инфраструктура:</td>
-          <td>Тип жилья:</td>
-          <td></td>
-          <td></td>
-         </tr>
-         <tr>
-           <td>бассейн</td>
-           <td>гостиница</td>
-           <td></td>
-           <td></td>
-        </tr>
-          <tr>
-           <td>парковка</td>
-           <td>модель</td>
-           <td></td>
-           <td></td>
-        </tr>
-          <tr>
-           <td>WI-FI</td>
-           <td>апартаменты</td>
-           <td></td>
-           <td></td>
-        </tr>
-    </table>
-    <table>
-        <tr>
-            <td>Стоимость в сутки(Р)</td>
-            <td></td>
-        </tr>
-        <tr>
-            <td>от 0</td>
-            <td>до 3000</td>
-        </tr>
-    </table>
+    <section class="search-settings">
+         <p>Инфраструктура: Тип жилья:<br>
+            бассейн гостиница<br>
+            парковка модель<br>
+            WI-FI апартаменты</p>
+         <p>Стоимость в сутки(Р):<br>
+            от 0 до 3000</p>
         <!-- Scroll -->
         <span>
             <button>Показать</button>
         </span>
-    <p>Найдено: 3 сортировка: по цене по типу по рейтингу</p>
-   <dl>
-       <dt><img src="" "AMARA RESORT & SPA"></dt>
-       <dd>гостиница от 3500 р.</dd>
-       <dd><button>Подробнее</button><button>Забронировать</button></dd>
-       <dt><img src="" "DESERT QUAIL INN"></dt>
-       <dd>мотель от 2000 р.</dd>
-       <dd><button>Подробнее</button><button>Забронировать</button></dd>
-       <dt><img src="" "VILLAS AT POCO DIABLO"></dt>
-       <dd>апартаменты от 4000 р.</dd>
-       <dd><button>Подробнее</button><button>Забронировать</button></dd>     
-   </dl>
+    </section>
+    <span>Найдено: 3</span> 
+    <span>сортировка:</span>
+         <ul class="sorting">
+             <li>
+                 <a href="sorting-item">по цене</a>
+             </li>
+             <li>
+                 <a href="sorting-item">по типу</a>
+             </li>
+             <li>
+                 <a href="sorting-item">по рейтингу</a>
+             </li>
+          </ul>
+   <ul class="result">
+       <li class="result-hotels">
+           <img src="" "AMARA RESORT & SPA">
+           <h3>AMARA RESORT & SPA</h3>
+              <p>гостиница от 3500 р.<br>
+           <button>Подробнее</button><button>Забронировать</button>
+                   <!--Звездность-->
+                   <!--Рейтинг-->
+              </p>
+       </li>
+       <li>
+       <img src="" "DESERT QUAIL INN">
+           <h3>DESERT QUAIL INN</h3>
+              <p>мотель от 2000 р.<br>
+           <button>Подробнее</button><button>Забронировать</button>
+                  <!--Звездность-->
+                  <!--Рейтинг-->
+              </p>
+        </li>
+       <li>
+       <img src="" "VILLAS AT POCO DIABLO">
+           <h3>VILLAS AT POCO DIABLO</h3>
+               <p>апартаменты от 4000 р.<br>
+           <button>Подробнее</button><button>Забронировать</button> 
+                  <!--Звездность-->
+                  <!--Рейтинг-->
+              </p>
+        </li>
+   </ul>
     </main>
       <footer>
-      <p><span class="hash">#VISIDONA</span>
-        <a class="">twiter</a>
-        <a class="">VK</a>
-        <a class="">yotube</a>
-        <img clas="">webside by html academy>
-      </p>
+       <ul class="footer">
+        <li>#VISITSEDONA</li>
+        <li><a class="">twiter</a></li>
+        <li><a class="">VK</a></li>
+        <li><a class="">yotube</a>
+        <li><img src="" webside by html academy></li>
+      </ul>
       </footer>
     </body>
 </html>
