@@ -19,16 +19,15 @@
     </header>
     <main class="container">
         <img src="img/background%20photo.jpg" "Фон">
-     <h1>SEDONA</h1>
+     <h1 class="visually-hiden"SEDONA</h1>
         <p>WELCOME - to the gorgeous -</p>
         <p>"Because the Grand Canyon sucks!"</p>
-     <h2><b>Седона - небольшой городок в аризоне, заслуживающий большего!</b></h2>
+     <b><h2 class="visually-hiden"Седона - небольшой городок в аризоне, заслуживающий большего!</h2></b>
         <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
      <section class="benefit">
         <section class="recommendation">
             <ul class="recomendation-list">
                 <li class="benefit-item">
-                    <img src="img/Layer%202%20copy%205.png" "Настоящий городок">
                     <img src="img/Layer%2013.jpg" "Настоящий городок">
                     <h3>Настоящий городок</h3>   
                     <p>- №1 -</p>  
@@ -51,7 +50,6 @@
                </li>
                 <li class="benefit-item">
                     <img src="img/Layer%2014.jpg" "Мост дьявола">
-                    <img src="img/Layer%202%20copy%205.png" "Мост дьявола">
                     <h3>Там есть мост дьявола</h3>
                     <p>- №2 -</p> 
                     <p> Да, по нему можно пройти! Если конечно вы осмелитесь</p>
@@ -72,18 +70,31 @@
                     <p>Большинство едет в гранд каньон и толпится там</p>
                 </li>             
             </ul>
-        </section>
-         
+        </section>  
       <h3>Заинтересовались?</h3>
         <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
         <h4 class="brown">Поиск гостиницы в Седоне</h4>
-        <p>Дата заезда: 24 апреля 2016<img src="img/calendar.png" "Календарь"><br>
-            Дата выезда: 4 июля 2016<img src="img/calendar.png" "Календарь"><br>
-            Взрослые: - 2 + Дети: - 0 +<br></p>
-           <button calss="button">
-            НАЙТИ
-           </button>
-          </main>   
+         <form action="https://echo.htmlacademy.ru" method="get">
+        <p>Дата заезда: 
+            <select name="check-in date">
+                <option>24 АПРЕЛЯ 2017</option>
+                <option>25 АПРЕЛЯ 2017</option>
+                <option>26 АПРЕЛЯ 2017</option>
+                <option>27 АПРЕЛЯ 2017</option>
+                <option>28 АПРЕЛЯ 2017</option>  
+            </select><img src="img/calendar.png" "Календарь"></p>
+        <p>Дата выезда:
+              <select name="date of departure">
+                <option>4 ИЮЛЯ 2017</option>
+                <option>5 ИЮЛЯ 2017</option>
+                <option>6 ИЮЛЯ 2017</option>
+                <option>7 ИЮЛЯ 2017</option>
+                <option>8 ИЮЛЯ 2017</option>
+               </select><img src="img/calendar.png" "Календарь"></p>
+            Взрослые: - 2 + Дети: - 0 +<br>
+             <input type="submit" value="НАЙТИ">
+         </form>
+      </main>   
       <footer>
     <span>#VISITSEDONA</span>
      <ul class="social">
