@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans", "Arial", sans-serif;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+}
+.main-header {   
+    
+}
+.main-navigation {
+    background-color: #ffffff;
+    color: #000000; 
+    line-height: 26px;
+    
+}
+
+.information {
+   ;
+    
+}
+
+.fonlogo {
+    background-image: url(img/Vector%20Smart%20Object.png);
+    margin: ;    
+}
+.logo {
+    background-image: url(img/Layer%2060.png);
+    margin: ;
+}
+
+.recomendation-list {
+   background-color: #ffffff;
+   
+
+}
+.container h3 {
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.benefit-item1 {
+    background-color: #81b3d2;
+    width: 256px;
+    height: 256px;
+    margin: left;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+   
+}
+
+.layer1 {
+     background-image: url(img/Layer%2013.jpg);
+     width: 512px;
+     height: 256px;
+     margin: -130px 258px;
+}
+
+.benefit-item2 {
+    background-color: #ffffff;
+    width: 256px;
+    height: 256px;
+    margin: left;
+    color: #333333;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+    
+}
+
+
+.benefit-item3 {
+    background-color: #81b3d2;
+    width: 256px;
+    height: 256px;
+    margin: left;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.layer2 {
+    background-image: url(img/Layer%2014.jpg);
+     width: 512px;
+     height: 256px;
+     margin: -130px 258px; 
+}
+
+
+.benefit-item4 {
+    background-color: #eeeeee;
+    width: 256px;
+    height: 256px;
+    margin: left;
+    color: #333333;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: bold;
+    
+}
+
+.search-hotel {
+    background-color: #766357;
+    width: 568px;
+    height: 86px;
+    margin: 100px;
+    text-align: center; 
+    color: #ffffff;
+    
+}
+form {
+    background-color: #ffffff;
+    width: 568px;
+    height: 395px;
+    padding: 60px;
+    margin: 60px;
+    font-weight: bold;
+    
+}
+
+label {
+    margin-right: 10px;
+}
+
+.search-hotel input {
+    width: 346px;
+    height: 38px;
+    background-color: #f2f2f2;
+}
+
+input[type="submit"] { 
+    display: inline-block;
+    width: 458;
+    height: 58;
+    margin: 10px 5px;
+    padding: 6px 15px;
+    color: #ffffff;
+    background: #81b3d2;
+    border: none;
+}
+
+.half-width {
+    display: inline-block;
+    width: 10%;
+    margin: 10px 10px;
+}
+
+.half-width input {
+    width: 80%;
+    
+}
+
+.result h3 {
+    font-size: 21px;
+    font-weight: bold;
+}

@@ -3,20 +3,23 @@
 <head>
     <meta charset="utf-8">
     <title>Поиск отеля</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
     <body>
       <header class="main-header">
-            <img src="img/Vector%20Smart%20Object.png" "Логотип">
-            <img src="img/Layer%2060.png" "logo">
-        <nav class="main-navigation">
-          <ul class="site-navigation">
-          <li><a href="">Информация</a></li>
-          <li><a href="">Фото и Видео</a></li>
+       <span class="fonlogo"><img src="img/Vector%20Smart%20Object.png" "Фон Логотипа"></span>
+       <span class="logo"><img src="img/Layer%2060.png" "Логотип"></span>
+    <nav class="main-navigation">
+      <ul class="site-navigation">
+          <span class="information"><li><a href="">Информация</a></li></span>
+          <span class="foto&video"><li><a href="">Фото и Видео</a></li></span>  
           <li><a href="">Карта штата</a></li>
           <li><a href="">Гостиницы</a></li>
-          </ul>  
-        </nav>
-     </header>
+      </ul>  
+     </nav>
+    </header>
     <main class="search">
     <section class="search-settings">
         <form action="https://echo.htmlacademy.ru" method="get">
@@ -40,9 +43,10 @@
              <!--<img src="img/checkbox-on.png">-->
              <label><input type="checkbox" name="apartments">
              апартаменты</label></p>
-         <p>Стоимость в сутки(Р):<br>
-            от 0 до 3000</p>
-        <!-- Scroll --> 
+        <div class="half-width">
+            <label for="dayscount">Стоимость в сутки(Р):</label>
+            от 0 <input type="range" id="dayscount" name="dayscount" min="0" max="5000" step="1"> до 3000
+        </div>
         <input type="submit" value="Показать"> 
         </form>
     </section>

@@ -3,95 +3,111 @@
   <head>
     <meta charset="utf-8">
     <title>Sedona - не большой городок в Аризоне</title>
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/index.css">
   </head>
   <body>
    <header class="main-header">
-       <img src="img/Vector%20Smart%20Object.png" "Логотип">
-       <img src="img/Layer%2060.png" "logo">
+       <span class="fonlogo"><img src="img/Vector%20Smart%20Object.png" "Фон Логотипа"></span>
+       <span class="logo"><img src="img/Layer%2060.png" "Логотип"></span>
     <nav class="main-navigation">
       <ul class="site-navigation">
-          <li><a href="">Информация</a></li>
-          <li><a href="">Фото и Видео</a></li>
+          <span class="information"><li><a href="">Информация</a></li></span>
+          <span class="foto&video"><li><a href="">Фото и Видео</a></li></span>  
           <li><a href="">Карта штата</a></li>
           <li><a href="">Гостиницы</a></li>
       </ul>  
      </nav>
     </header>
     <main class="container">
-        <img src="img/background%20photo.jpg" "Фон">
-     <h1 class="visually-hiden"SEDONA</h1>
+            <img src="img/background%20photo.jpg">
+            <img src="img/Welcome.png">
+     <h1 class="visually-hiden">SEDONA</h1>
         <p>WELCOME - to the gorgeous -</p>
         <p>"Because the Grand Canyon sucks!"</p>
-     <b><h2 class="visually-hiden"Седона - небольшой городок в аризоне, заслуживающий большего!</h2></b>
-        <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+        <li class="benefit-item2">
+            <h2>Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
+            <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
+        </li>
      <section class="benefit">
         <section class="recommendation">
             <ul class="recomendation-list">
-                <li class="benefit-item">
-                    <img src="img/Layer%2013.jpg" "Настоящий городок">
+                <li class="benefit-item1">
                     <h3>Настоящий городок</h3>   
                     <p>- №1 -</p>  
-                   <p>Седона - неаттракцион для туристов, там течет своя жизнь</p>
+                    <p>Седона - неаттракцион для туристов, там течет своя жизнь</p>
+                <div class="layer1">
+                    <img width="512" height="256" src="img/Layer%2013.jpg" "Настоящий городок">
+                </div>
+                       
                 </li>   
-                <li class="benefit-item">
+                <li class="benefit-item2">
                     <img src="img/icon-1.png" "Жилье">
                     <h3>Жилье</h3>
                     <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
                </li>
-               <li class="benefit-item">
+               <li class="benefit-item2">
                    <img src="img/icon-3.png" "Еда">
                    <h3>Еда</h3>
                    <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
                </li>
-               <li class="benefit-item">
+               <li class="benefit-item2">
                    <img src="img/icon-2.png" "Сувениры">
                    <h3>Сувениры</h3>
                    <p>Не только китайского, но и местного производства!</p>
-               </li>
-                <li class="benefit-item">
-                    <img src="img/Layer%2014.jpg" "Мост дьявола">
+               </li><br><br><br>
+                <li class="benefit-item3">
+                <div class="layer2">
+                    <img width="512" height="256" src="img/Layer%2014.jpg" "Мост дьявола">
+                </div>
                     <h3>Там есть мост дьявола</h3>
                     <p>- №2 -</p> 
                     <p> Да, по нему можно пройти! Если конечно вы осмелитесь</p>
                 </li>
-                <li class="benefit-item">
+                
+                <li class="benefit-item4">
                     <h3>Небольшая площаль</h3>
                     <p>- №3 -</p> 
                     <p>Все достопримечательности находятся очень близко</p>
                 </li>
-                <li class="benefit-item">
+                <li class="benefit-item4">
                     <h3>Красивая дорога</h3>
                     <p>- №4 -</p> 
                     <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
                 </li>
-                <li class="benefit-item">
+                <li class="benefit-item4">
                     <h3>Мало туристов</h3>
                     <p>- №5 -</p> 
                     <p>Большинство едет в гранд каньон и толпится там</p>
                 </li>             
             </ul>
-        </section>  
-      <h3>Заинтересовались?</h3>
-        <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-        <h4 class="brown">Поиск гостиницы в Седоне</h4>
+         </section>
+        </section>
+        <li class="benefit-item2">
+            <h3>Заинтересовались?</h3>
+            <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            </li>
+        <h4 class="search-hotel">Поиск гостиницы в Седоне</h4>
          <form action="https://echo.htmlacademy.ru" method="get">
-        <p>Дата заезда: 
-            <select name="check-in date">
-                <option>24 АПРЕЛЯ 2017</option>
-                <option>25 АПРЕЛЯ 2017</option>
-                <option>26 АПРЕЛЯ 2017</option>
-                <option>27 АПРЕЛЯ 2017</option>
-                <option>28 АПРЕЛЯ 2017</option>  
-            </select><img src="img/calendar.png" "Календарь"></p>
-        <p>Дата выезда:
-              <select name="date of departure">
-                <option>4 ИЮЛЯ 2017</option>
-                <option>5 ИЮЛЯ 2017</option>
-                <option>6 ИЮЛЯ 2017</option>
-                <option>7 ИЮЛЯ 2017</option>
-                <option>8 ИЮЛЯ 2017</option>
-               </select><img src="img/calendar.png" "Календарь"></p>
-            Взрослые: - 2 + Дети: - 0 +<br>
+             <div class="check-in date">
+             <label for="date">Дата заезда:</label>
+             <input type="date" id="date" name="date" value="24 апреля 2017">
+                 <img src="img/calendar.png" "Календарь">
+             </div>
+             <div class="date of departure">
+             <label for="date">Дата выезда:</label>
+             <input type="date" id="date" name="date" value="4 июля 2017">
+                 <img src="img/calendar.png" "Календарь">
+             </div>
+             <div class="half-width">
+                    <label for="amount">Взрослые:</label>
+                    <input type="number" name="amount" id="amount" value="2">
+                </div>
+             <div class="half-width">
+                    <label for="amount">Дети:</label>
+                    <input type="number" name="amount" id="amount" value="0">
+                </div><br>
              <input type="submit" value="НАЙТИ">
          </form>
       </main>   
