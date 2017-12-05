@@ -7,87 +7,88 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css">
   </head>
-  <body>
+  <body class="fon">
    <header class="main-header">
-       <span class="fonlogo"><img src="img/Vector%20Smart%20Object.png" "Фон Логотипа"></span>
-       <span class="logo"><img src="img/Layer%2060.png" "Логотип"></span>
+       <a class="logo" href="index.html"><img src="img/logo.png" "Логотип"></a>
     <nav class="main-navigation">
       <ul class="site-navigation">
-          <span class="information"><li><a href="">Информация</a></li></span>
-          <span class="foto&video"><li><a href="">Фото и Видео</a></li></span>  
-          <li><a href="">Карта штата</a></li>
-          <li><a href="">Гостиницы</a></li>
-      </ul>  
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="foto-video.html">Фото и Видео</a></li>
+          <li><a href="map.html">Карта штата</a></li>
+          <li><a href="hotels.html">Гостиницы</a></li>
+      </ul>
      </nav>
     </header>
     <main class="container">
-            <img src="img/background%20photo.jpg">
-            <img src="img/Welcome.png">
-     <h1 class="visually-hiden">SEDONA</h1>
-        <p>WELCOME - to the gorgeous -</p>
-        <p>"Because the Grand Canyon sucks!"</p>
-        <li class="benefit-item2">
+        <div class="backgound">
+        <h1 class="visually-hidden">SEDONA</h1>
+            <img src="img/background_photo1.jpg" "Фон">
+       </div>
+
+        <div class="explanations">
             <h2>Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
             <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
-        </li>
-     <section class="benefit">
+        </div>
         <section class="recommendation">
-            <ul class="recomendation-list">
-                <li class="benefit-item1">
-                    <h3>Настоящий городок</h3>   
-                    <p>- №1 -</p>  
+            <div class="recomendation-list">
+                <div class="benefit-item1">
+                    <h3>Настоящий городок</h3>
+                    <p>- №1 -</p>
                     <p>Седона - неаттракцион для туристов, там течет своя жизнь</p>
-                <div class="layer1">
-                    <img width="512" height="256" src="img/Layer%2013.jpg" "Настоящий городок">
                 </div>
-                       
-                </li>   
-                <li class="benefit-item2">
+                <div class="benefit-item2">
+                    <img src="img/Layer%2013.jpg" "Настоящий городок">
+                </div>
+            </div>
+            <ul class="info">
+                <li class="housing">
                     <img src="img/icon-1.png" "Жилье">
                     <h3>Жилье</h3>
                     <p>Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
                </li>
-               <li class="benefit-item2">
+               <li class="food">
                    <img src="img/icon-3.png" "Еда">
                    <h3>Еда</h3>
                    <p>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
                </li>
-               <li class="benefit-item2">
+               <li class="souvenirs">
                    <img src="img/icon-2.png" "Сувениры">
                    <h3>Сувениры</h3>
                    <p>Не только китайского, но и местного производства!</p>
-               </li><br><br><br>
-                <li class="benefit-item3">
-                <div class="layer2">
+               </li>
+            </ul>
+            <div class="recomendation-list2">
+                <div class="benefit-item3">
                     <img width="512" height="256" src="img/Layer%2014.jpg" "Мост дьявола">
                 </div>
+                <div class="benefit-item4">
                     <h3>Там есть мост дьявола</h3>
-                    <p>- №2 -</p> 
+                    <p>- №2 -</p>
                     <p> Да, по нему можно пройти! Если конечно вы осмелитесь</p>
-                </li>
-                
-                <li class="benefit-item4">
+                </div>
+            </div>
+            <div class="recomendation-list3">
+                <div class="benefit-item5">
                     <h3>Небольшая площаль</h3>
-                    <p>- №3 -</p> 
+                    <p>- №3 -</p>
                     <p>Все достопримечательности находятся очень близко</p>
-                </li>
-                <li class="benefit-item4">
+                </div>
+                <div class="benefit-item6">
                     <h3>Красивая дорога</h3>
-                    <p>- №4 -</p> 
+                    <p>- №4 -</p>
                     <p>Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
-                </li>
-                <li class="benefit-item4">
+                </div>
+                <div class="benefit-item7">
                     <h3>Мало туристов</h3>
-                    <p>- №5 -</p> 
+                    <p>- №5 -</p>
                     <p>Большинство едет в гранд каньон и толпится там</p>
-                </li>             
-            </ul>
+                </div>
+            </div>
          </section>
-        </section>
-        <li class="benefit-item2">
+        <div class="interested">
             <h3>Заинтересовались?</h3>
             <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-            </li>
+
         <h4 class="search-hotel">Поиск гостиницы в Седоне</h4>
          <form action="https://echo.htmlacademy.ru" method="get">
              <div class="check-in date">
@@ -110,17 +111,19 @@
                 </div><br>
              <input type="submit" value="НАЙТИ">
          </form>
-      </main>   
+        </div>
+      </main>
       <footer>
-    <span>#VISITSEDONA</span>
+    <span class="hash">#VISITSEDONA</span>
      <ul class="social">
         <li><a href="https://twitter.com">twiter</a></li>
         <li><a href="vk.com">VK</a></li>
         <li><a href="https://www.youtube.com">yotube</a></li>
      </ul>
+    <span class="made">WEBSITE by</span>
         <a href="https://htmlacademy.ru">
             <img src="img/logo_name.png" alt="webside by html academy">
         </a>
-      </footer>  
+      </footer>
   </body>
 </html>

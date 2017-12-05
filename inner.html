@@ -7,24 +7,24 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css">
 </head>
-    <body>
+    <body class="fon">
       <header class="main-header">
-       <span class="fonlogo"><img src="img/Vector%20Smart%20Object.png" "Фон Логотипа"></span>
-       <span class="logo"><img src="img/Layer%2060.png" "Логотип"></span>
+       <a class="logo" href="index.html"><img src="img/logo.png" "Логотип"></a>
     <nav class="main-navigation">
       <ul class="site-navigation">
-          <span class="information"><li><a href="">Информация</a></li></span>
-          <span class="foto&video"><li><a href="">Фото и Видео</a></li></span>  
+          <li><a href="">Информация</a></li>
+          <li><a href="">Фото и Видео</a></li>
           <li><a href="">Карта штата</a></li>
           <li><a href="">Гостиницы</a></li>
-      </ul>  
+      </ul>
      </nav>
     </header>
     <main class="search">
     <section class="search-settings">
+      <img src="img/sedona-hotels.jpg" "Размытый фон">
         <form action="https://echo.htmlacademy.ru" method="get">
-            
-         <p>Инфраструктура: Тип жилья:<br>
+          <div class="">
+         <pИнфраструктура: Тип жилья:<br>
             <!--<img src="img/checkbox-on.png">-->
              <label><input type="checkbox" name="pool">
              бассейн</label>
@@ -42,33 +42,36 @@
              WI-FI</label>
              <!--<img src="img/checkbox-on.png">-->
              <label><input type="checkbox" name="apartments">
-             апартаменты</label></p>
+             апартаменты</label></>
         <div class="half-width">
             <label for="dayscount">Стоимость в сутки(Р):</label>
             от 0 <input type="range" id="dayscount" name="dayscount" min="0" max="5000" step="1"> до 3000
         </div>
-        <input type="submit" value="Показать"> 
+        <input type="submit" value="Показать">
         </form>
     </section>
-    <span>Найдено: 3</span> 
-    <span>сортировка:</span>
-         <ul class="sorting">
-             <li>
+    <div class="sorting">
+        <ul class="sorting1">
+             <li class="found">Найдено: 3</li>
+             <li class="division">сортировка:</li>
+             <li class="price">
                  <a href="sorting-item">по цене</a>
              </li>
-             <li>
+             <li class="type">
                  <a href="sorting-item">по типу</a>
              </li>
-             <li>
+             <li class="rating">
                  <a href="sorting-item">по рейтингу</a>
              </li>
           </ul>
+    </div>
    <ul class="result">
-       <li class="result-hotels">
+       <li class="result-hotels1">
            <img src="img/Layer%2091.jpg" "AMARA RESORT & SPA">
            <h3>AMARA RESORT & SPA</h3>
               <p>гостиница от 3500 р.<br>
-           <button>Подробнее</button><button>Забронировать</button>
+           <button class="readmore">Подробнее</button>
+           <button class="book">Забронировать</button>
                 <img src="img/%E2%98%85.png">
                 <img src="img/%E2%98%85.png">
                 <img src="img/%E2%98%85.png">
@@ -76,7 +79,7 @@
                    <!--Рейтинг-->
               </p>
        </li>
-       <li>
+       <li class="result-hotels2">
        <img src="img/Layer%2089%20copy.jpg" "DESERT QUAIL INN">
            <h3>DESERT QUAIL INN</h3>
               <p>мотель от 2000 р.<br>
@@ -87,11 +90,11 @@
                   <!--Рейтинг-->
               </p>
         </li>
-       <li>
+       <li class="result-hotels3">
        <img src="img/Layer%2092.jpg" "VILLAS AT POCO DIABLO">
            <h3>VILLAS AT POCO DIABLO</h3>
                <p>апартаменты от 4000 р.<br>
-           <button>Подробнее</button><button>Забронировать</button> 
+           <button>Подробнее</button><button>Забронировать</button>
                   <img src="img/%E2%98%85.png">
                 <img src="img/%E2%98%85.png">
                   <!--Рейтинг-->
@@ -100,12 +103,13 @@
    </ul>
     </main>
       <footer>
-      <span>#VISITSEDONA</span>
+      <span class="hash">#VISITSEDONA</span>
      <ul class="social">
         <li><a href="https://twitter.com">twiter</a></li>
         <li><a href="vk.com">VK</a></li>
         <li><a href="https://www.youtube.com">yotube</a></li>
      </ul>
+    <span class="made">WEBSITE by</span>
         <a href="https://htmlacademy.ru">
             <img src="img/logo_name.png" alt="webside by html academy">
         </a>
