@@ -5,17 +5,17 @@
     <title>Поиск отеля</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
     <body class="fon">
       <header class="main-header">
        <a class="logo" href="index.html"><img src="img/logo.png" "Логотип"></a>
     <nav class="main-navigation">
       <ul class="site-navigation">
-          <li><a href="">Информация</a></li>
-          <li><a href="">Фото и Видео</a></li>
-          <li><a href="">Карта штата</a></li>
-          <li><a href="">Гостиницы</a></li>
+          <li><a href="info.html">Информация</a></li>
+          <li><a href="foto-video.html">Фото и Видео</a></li>
+          <li><a href="index.html">Карта штата</a></li>
+          <li><a href="inner.html">Гостиницы</a></li>
       </ul>
      </nav>
     </header>
@@ -23,30 +23,35 @@
     <section class="search-settings">
       <img src="img/sedona-hotels.jpg" "Размытый фон">
         <form action="https://echo.htmlacademy.ru" method="get">
-          <div class="">
-         <pИнфраструктура: Тип жилья:<br>
+          <div class="infrastructure">
+         <h3>Инфраструктура:</h3>
             <!--<img src="img/checkbox-on.png">-->
              <label><input type="checkbox" name="pool">
              бассейн</label>
+             <!--<img src="img/checkbox-off.png">-->
+              <label><input type="checkbox" name="parking">
+              парковка</label>
+              <!--<img src="img/checkbox-on.png">-->
+              <label><input type="checkbox" name="wifi">
+              WI-FI</label>
+             </div>
+             <div class="type-of-housing">
+             <h3>Тип жилья:</h3>
              <!--<img src="img/checkbox-on.png">-->
              <label><input type="checkbox" name="hotel">
              гостиница</label><br>
-            <!--<img src="img/checkbox-off.png">-->
-             <label><input type="checkbox" name="parking">
-             парковка</label>
              <!--<img src="img/checkbox-on.png">-->
              <label><input type="checkbox" name="motel">
                  мотель</label><br>
-            <!--<img src="img/checkbox-off.png">-->
-             <label><input type="checkbox" name="wifi">
-             WI-FI</label>
              <!--<img src="img/checkbox-on.png">-->
              <label><input type="checkbox" name="apartments">
-             апартаменты</label></>
+             апартаменты</label>
+           </div>
         <div class="half-width">
             <label for="dayscount">Стоимость в сутки(Р):</label>
             от 0 <input type="range" id="dayscount" name="dayscount" min="0" max="5000" step="1"> до 3000
         </div>
+
         <input type="submit" value="Показать">
         </form>
     </section>
@@ -63,42 +68,93 @@
              <li class="rating">
                  <a href="sorting-item">по рейтингу</a>
              </li>
+             <li class="icon-up">
+               <img src="img/icon-up-dir.png" "Иконка вверх">
+             </li>
+             <li class="icon-down">
+               <img src="img/icon-down-dir.png" "Иконка вниз">
+             </li>
           </ul>
     </div>
    <ul class="result">
        <li class="result-hotels1">
+          <div class="amara">
+            <div class="amara-image">
            <img src="img/Layer%2091.jpg" "AMARA RESORT & SPA">
-           <h3>AMARA RESORT & SPA</h3>
-              <p>гостиница от 3500 р.<br>
-           <button class="readmore">Подробнее</button>
-           <button class="book">Забронировать</button>
+           </div>
+          <div class="amara-title-paragraph-button">
+           <div class="amara-title">
+           AMARA RESORT & SPA
+           </div>
+          <div class="amara-paragraph">
+              гостиница от 4000 р.
+          </div>
+           <button class="amara-readmore">Подробнее</button>
+           <button class="amara-book">Забронировать</button>
+         </div>
+       </div>
+       <div class="amara-stars-points">
+           <div class="amara-stars">
                 <img src="img/%E2%98%85.png">
                 <img src="img/%E2%98%85.png">
                 <img src="img/%E2%98%85.png">
                 <img src="img/%E2%98%85.png">
-                   <!--Рейтинг-->
-              </p>
+           </div>
+            <div class="amara-points">Рейтинг:8,5</div>
+        </div>
        </li>
        <li class="result-hotels2">
+         <div class="desert">
+         <div class="desert-image">
        <img src="img/Layer%2089%20copy.jpg" "DESERT QUAIL INN">
-           <h3>DESERT QUAIL INN</h3>
-              <p>мотель от 2000 р.<br>
-           <button>Подробнее</button><button>Забронировать</button>
+        </div>
+        <div class="desert-title-paragraph-button">
+        <div class="desert-title">
+           DESERT QUAIL INN
+         </div>
+         <div class="disert-paragraph">
+              мотель от 3000 р.
+          </div>
+           <button class="desert-readmore">Подробнее</button>
+           <button class="desert-book">Забронировать</button>
+         </div>
+        </div>
+           <div class="desert-stars-points">
+             <div class="desert-stars">
                   <img src="img/%E2%98%85.png">
                   <img src="img/%E2%98%85.png">
                   <img src="img/%E2%98%85.png">
-                  <!--Рейтинг-->
-              </p>
+              </div>
+              <div class="desert-points">
+                  Рейтинг:8,9
+              </div>
+            </div>
         </li>
        <li class="result-hotels3">
+         <div class="diablo">
+           <div class="diablo-image">
        <img src="img/Layer%2092.jpg" "VILLAS AT POCO DIABLO">
-           <h3>VILLAS AT POCO DIABLO</h3>
-               <p>апартаменты от 4000 р.<br>
-           <button>Подробнее</button><button>Забронировать</button>
+           </div>
+           <div class="diablo-title-paragraph-button">
+           <div class="diablo-title">
+           VILLAS AT POCO DIABLO
+         </div>
+         <div class="diablo-paragraph">
+               апартаменты от 2000 р.
+          </div>
+           <button class="diablo-readmore">Подробнее</button>
+           <button class="diablo-book">Забронировать</button>
+         </div>
+       </div>
+       <div class="diablo-stars-points">
+         <div class="diablo-stars">
                   <img src="img/%E2%98%85.png">
-                <img src="img/%E2%98%85.png">
-                  <!--Рейтинг-->
-              </p>
+                  <img src="img/%E2%98%85.png">
+          </div>
+          <div class="diablo-points">
+                  Рейтинг:9,2
+          </div>
+        </div>
         </li>
    </ul>
     </main>

@@ -5,7 +5,7 @@
     <title>Sedona - не большой городок в Аризоне</title>
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body class="fon">
    <header class="main-header">
@@ -14,8 +14,8 @@
       <ul class="site-navigation">
           <li><a href="info.html">Информация</a></li>
           <li><a href="foto-video.html">Фото и Видео</a></li>
-          <li><a href="map.html">Карта штата</a></li>
-          <li><a href="hotels.html">Гостиницы</a></li>
+          <li><a href="#map">Карта штата</a></li>
+          <li><a href="inner.html">Гостиницы</a></li>
       </ul>
      </nav>
     </header>
@@ -37,7 +37,7 @@
                     <p>Седона - неаттракцион для туристов, там течет своя жизнь</p>
                 </div>
                 <div class="benefit-item2">
-                    <img src="img/Layer%2013.jpg" "Настоящий городок">
+                    <img src="img/Layer%2013.jpg" alt="Настоящий городок">
                 </div>
             </div>
             <ul class="info">
@@ -59,7 +59,7 @@
             </ul>
             <div class="recomendation-list2">
                 <div class="benefit-item3">
-                    <img width="512" height="256" src="img/Layer%2014.jpg" "Мост дьявола">
+                    <img src="img/Layer%2014.jpg" "Мост дьявола">
                 </div>
                 <div class="benefit-item4">
                     <h3>Там есть мост дьявола</h3>
@@ -87,30 +87,33 @@
          </section>
         <div class="interested">
             <h3>Заинтересовались?</h3>
-            <p>Укажите предполагаемые даты поездки, и мы покажем вам лучшие предложения гостиниц в Седоне</p>
+            <p>Укажите предполагаемые даты поездки,<br>и мы покажем вам лучшие предложения гостиниц в Седоне</p>
 
-        <h4 class="search-hotel">Поиск гостиницы в Седоне</h4>
-         <form action="https://echo.htmlacademy.ru" method="get">
-             <div class="check-in date">
-             <label for="date">Дата заезда:</label>
-             <input type="date" id="date" name="date" value="24 апреля 2017">
-                 <img src="img/calendar.png" "Календарь">
-             </div>
-             <div class="date of departure">
-             <label for="date">Дата выезда:</label>
-             <input type="date" id="date" name="date" value="4 июля 2017">
-                 <img src="img/calendar.png" "Календарь">
-             </div>
-             <div class="half-width">
-                    <label for="amount">Взрослые:</label>
-                    <input type="number" name="amount" id="amount" value="2">
-                </div>
-             <div class="half-width">
-                    <label for="amount">Дети:</label>
-                    <input type="number" name="amount" id="amount" value="0">
-                </div><br>
-             <input type="submit" value="НАЙТИ">
-         </form>
+        <button class="search-hotel">Поиск гостиницы в Седоне</button>
+        <div class="map" id="map">
+          <form action="https://echo.htmlacademy.ru" method="get">
+            <div class="check-in-date">
+              <label for="date">Дата заезда:</label>
+              <input type="date" id="date" name="date" value="24 апреля 2017">
+              <img src="img/calendar.png" "Календарь">
+            </div>
+            <div class="date-of-departure">
+              <label for="date">Дата выезда:</label>
+              <input type="date" id="date" name="date" value="4 июля 2017">
+              <img src="img/calendar.png" "Календарь">
+            </div>
+            <div class="half-width">
+              <label for="amount">Взрослые:</label>
+              <input type="number" name="amount" id="amount" value="2">
+            </div>
+            <div class="half-width">
+              <label for="amount">Дети:</label>
+              <input type="number" name="amount" id="amount" value="0">
+            </div><br>
+            <input type="submit" value="НАЙТИ">
+          </form>
+
+        </div>
         </div>
       </main>
       <footer>
