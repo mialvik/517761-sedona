@@ -149,6 +149,10 @@ li {
     margin-right: auto;
 }
 
+element .style {
+  display: block;
+}
+
 .benefit-item2 {
     outline: 1px solid red;
     background-image: url("..img/Layer%2013.jpg");
@@ -549,6 +553,7 @@ input[type="submit"] {
 }
 
 .result-hotels1 {
+  display: flex;
     border-bottom: 1px solid #e5e5e5;
 }
 
@@ -611,20 +616,23 @@ input[type="submit"] {
 .result-hotels1 .amara-stars-points {
     outline: 1px solid yellow;
     width: 111px;
+    margin-left: auto;
 }
 
 .result-hotels1 .amara-stars {
   width: 90px;
   margin-top: 29px;
   margin-left: auto;
-    margin-right: 73px;
+  margin-right: 73px;
 }
 
 .result-hotels1 .amara-points {
   background-color: #f2f2f2;
+  margin-top: 47px;
 }
 /*----------------------------------------*/
 .result-hotels2 {
+  display: flex;
   border-bottom: 1px solid #e5e5e5;
 }
 .result-hotels2 .desert {
@@ -686,6 +694,7 @@ input[type="submit"] {
 .result-hotels2 .desert-stars-points {
     outline: 1px solid yellow;
     width: 111px;
+    margin-left: auto;
 }
 
 .result-hotels2 .desert-stars {
@@ -697,10 +706,12 @@ input[type="submit"] {
 
 .result-hotels2 .desert-points {
   background-color: #f2f2f2;
+  margin-top: 47px;
 }
 /*------------------------------------------*/
-.resulthotels3 {
+.result-hotels3 {
   border-bottom: 1px solid #e5e5e5;
+  display: flex;
 }
 
 .result-hotels3 .diablo {
@@ -763,17 +774,20 @@ input[type="submit"] {
 .result-hotels3 .diablo-stars-points {
     outline: 1px solid yellow;
     width: 111px;
+    margin-left: auto;
 }
 
 .result-hotels3 .diablo-stars {
   width: 90px;
   margin-top: 29px;
   margin-left: auto;
-    margin-right: 73px;
+  margin-right: 73px;
+
 }
 
 .result-hotels3 .diablo-points {
   background-color: #f2f2f2;
+  margin-top: 47px;
 }
 /*------------------------------------------*/
 footer {
