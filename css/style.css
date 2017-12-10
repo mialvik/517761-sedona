@@ -23,7 +23,7 @@ body {
 }
 
 .fon {
-    background-color: #ffffff;
+    background-color: #f2f2f2;
     box-shadow: 0 0 10px #dbdbdb;
     margin-right: auto;
     margin-left: auto;
@@ -54,8 +54,6 @@ li {
     display: flex;
     flex-direction: column;
     background-color: #ffffff;
-    color: #000000;
-    line-height: 26px;
 }
 
 .site-navigation {
@@ -71,10 +69,12 @@ li {
 
 .site-navigation li:nth-of-type(n+3) {
   text-align: right;
+  padding-right: 73px;
 }
 
-.site-navigation li:nth-child(2) {
- margin-right: auto;
+.site-navigation li:nth-of-type(-n+2) {
+   text-align: left;
+   padding-left: 30px;
 }
 
 .site-navigation a {
@@ -85,32 +85,36 @@ li {
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: #ffffff;
 }
 
 .explanations h2 {
     font-size: 21px;
     line-height: 26px;
     font-weight: bold;
-    margin-top: 56px;
-    margin-left: 378px;
-    margin-right: 378px;
+    white-space: pre;
+    width: 636px;
+    margin-top: 58px;
+    margin-left: 282px;
+    margin-right: 282px;
 }
 
 .explanations p {
+    width: 495px;
     font-size: 14px;
     line-height: 26px;
-    margin-bottom: 56px;
+    margin-top: 11px;
+    margin-left: 351px;
+    margin-right: 351px;
+    margin-bottom: 52px;
 }
 
 .recomindation {
-    margin-bottom: auto;
+
 }
 
 .recomendation-list {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
     margin: 0;
     padding: 0;
 }
@@ -119,7 +123,6 @@ li {
     background-color: #81b3d2;
     color: #ffffff;
     width: 33%;
-    height: auto;
     text-align: center;
 }
 
@@ -127,23 +130,19 @@ li {
     font-size: 21px;
     line-height: 21px;
     font-weight: bold;
-    width: 130px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 125px;
     margin-top: 48px;
+    margin-left: 137px;
+    margin-right: 137px;
 }
 
 .benefit-item1 p {
     font-size: 14px;
     line-height: 21px;
-    margin-top: 25px;
     width: 285px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-element .style {
-  display: block;
+    margin-top: 24px;
+    margin-left: 55px;
+    margin-right: 55px;
 }
 
 .benefit-item2 {
@@ -154,7 +153,7 @@ element .style {
 
 .benefit-item2 img {
   width: 100%;
-  height: 255px;
+  height: 257px;
 }
 
 .info {
@@ -162,14 +161,9 @@ element .style {
     flex-direction: row;
     color: #000000;
     text-align: center;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
-}
-
-.info img {
-    margin-top: 60px;
-    margin-left: 160px;
-    margin-right: 160px;
 }
 
 .info h3 {
@@ -187,11 +181,24 @@ element .style {
 
 .housing {
     width: 33%;
-    height: auto;
+}
+
+.housing img {
+    width: 75px;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.housing h3 {
+  width: 70px;
+  margin-top: 23px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .housing p {
-    margin-top: 25px;
+    margin-top: 26px;
     margin-left: 70px;
     margin-right: 70px;
     margin-bottom: 85px;
@@ -199,26 +206,54 @@ element .style {
 
 .food {
     width: 33%;
-    height: auto;
+
+}
+
+.food img {
+    width: 74px;
+    margin-top: 60px;
+    margin-left: 164px;
+    margin-right: 161px;
+}
+
+.food h3 {
+  width: 40px;
+  margin-top: 25px;
+  margin-left: 182px;
+  margin-right: 182px;
 }
 
 .food p {
-    margin-top: 25px;
-    margin-left: 55px;
-    margin-right: 55px;
-    margin-bottom: 85px;
+  width: 285px;
+    margin-top: 26px;
+    margin-left: 61px;
+    margin-right: 61px;
 }
 
 .souvenirs {
     width: 33%;
-    height: auto;
+
+}
+
+.souvenirs img {
+    width: 64px;
+    margin-top: 55px;
+    margin-left: 175px;
+    margin-right: 175px;
+}
+
+.souvenirs h3 {
+  width: 105px;
+  margin-top: 25px;
+  margin-left: 155px;
+  margin-right: 155px;
 }
 
 .souvenirs p {
+  width: 275px;
     margin-top: 25px;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-bottom: 85px;
+    margin-left: 70px;
+    margin-right: 70px;
 }
 
 .recomendation-list2 {
@@ -245,7 +280,6 @@ element .style {
     background-color: #81b3d2;
     color: #ffffff;
     width: 33%;
-    height: auto;
     text-align: center;
 }
 
@@ -253,17 +287,19 @@ element .style {
     font-size: 21px;
     line-height: 21px;
     font-weight: bold;
+    width: 155px;
     margin-top: 46px;
-    margin-left: 123px;
-    margin-right: 123px;
+    margin-left: 118px;
+    margin-right: 118px;
 }
 
 .benefit-item4 p {
+    width: 305px;
     font-size: 14px;
     line-height: 21px;
-    margin-top: 25px;
-    margin-left: 79px;
-    margin-right: 70px;
+    margin-top: 24px;
+    margin-left: 43px;
+    margin-right: 43px;
 }
 
 .recomendation-list3 {
@@ -271,8 +307,10 @@ element .style {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    color: #000000;
+    background-color: #eeeeee;
     margin: 0;
-    padding: 0;
+    padding-bottom: 47px;
 }
 
 .recomendation-list3 h3 {
@@ -286,65 +324,87 @@ element .style {
 }
 
 .benefit-item5 {
-    background-color: #eeeeee;
-    color: #000000;
     width: 33%;
-    height: auto;
     text-align: center;
+}
+
+.benefit-item5 h3 {
+  width: 120px;
+  margin-top: 48px;
+  margin-left: 133px;
+  margin-right: 133px;
 }
 
 .benefit-item5 p {
-    margin-top: 25px;
-    margin-left: 75px;
-    margin-right: 75px;
+  width: 212px;
+  margin-top: 23px;
+  margin-left: 86px;
+  margin-right: 86px;
 }
 
 .benefit-item6 {
-    background-color: #eeeeee;
-    color: #000000;
     width: 33%;
     height: auto;
     text-align: center;
+}
+
+.benefit-item6 h3 {
+    width: 105px;
+    margin-top: 48px;
+    margin-left: 144px;
+    margin-right: 144px;
 }
 
 .benefit-item6 p {
-    margin-top: 25px;
-    margin-left: 58px;
-    margin-right: 58px;
-
+    width: 266px;
+    margin-top: 23px;
+    margin-left: 65px;
+    margin-right: 65px;
 }
 
 .benefit-item7 {
-    background-color: #eeeeee;
-    color: #000000;
     width: 33%;
     height: auto;
     text-align: center;
 }
 
+.benefit-item7 h3 {
+    width: 105px;
+    margin-top: 48px;
+    margin-left: 147px;
+    margin-right: 147px;
+}
+
 .benefit-item7 p {
-    margin-top: 25px;
-    margin-left: 63px;
-    margin-right: 63px;
+    width: 265px;
+    margin-top: 23px;
+    margin-left: 69px;
+    margin-right: 69px;
 }
 
 .interested {
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: #ffffff;
+
 }
 
 .interested h3 {
     font-size: 30px;
     line-height: 36px;
     font-weight: bold;
-    margin-top: 58px;
+    width: 300px;
+    margin-top: 52px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .interested p {
     font-size: 14px;
     line-height: 24px;
     width: 450px;
+    margin-top: -7px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -953,9 +1013,11 @@ margin-bottom: 23px;
 }
 /*------------------------------------------*/
 .main-footer {
-    background-color: rgba(255,255,255,0.2);
-    padding-top: 36px;
-
+  position: absolute;
+  transform: translatey(-50px);
+  display: block;
+  background-color: rgba(255,255,255,0.8);
+  width: 1200px;
 }
 
 .container-footer {
@@ -970,8 +1032,6 @@ margin-bottom: 23px;
     line-height: 26px;
     font-weight: bold;
     padding-top: 12px;
-
-
 }
 
 .footer-social {
