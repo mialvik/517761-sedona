@@ -26,7 +26,6 @@
         <h1 class="visually-hidden">SEDONA</h1>
             <img src="img/background_photo1.jpg" alt="Фон" width="1200" height="508">
        </div>
-
         <div class="explanations">
             <h2>Седона - небольшой городок в аризоне, заслуживающий большего!</h2>
             <p>Рассмотрим 5 причин, по которым Седона круче, чем Гранд Каньон!</p>
@@ -96,13 +95,21 @@
           <form action="https://echo.htmlacademy.ru" method="get">
             <div class="check-in-date">
               <label for="arrival">Дата заезда:</label>
+              <div class="check-type-date">
               <input type="date" id="arrival" name="arrival">
+             </div>
+              <div class="check-calendar">
               <img src="img/calendar.png" alt="Календарь" width="21" height="22">
+            </div>
             </div>
             <div class="date-of-departure">
               <label for="departure">Дата выезда:</label>
+              <div class="departure-type-date">
               <input type="date" id="departure" name="departure">
+            </div>
+              <div class="departure-calendar">
               <img src="img/calendar.png" alt="Календарь" width="21" height="22">
+            </div>
             </div>
             <div class="grow-children">
             <div class="half-width1">
@@ -113,6 +120,8 @@
               <label for="children">Дети:</label>
               <input type="number" name="children" id="children" value="0">
             </div>
+            </div>
+            <div class="button-search">
             <input type="submit" value="НАЙТИ">
           </div>
           </form>
@@ -120,14 +129,14 @@
         </div>
       </main>
       <footer class="main-footer">
-        <div class="container-footer">
-    <span class="hash">#VISITSEDONA</span>
+      <div class="container-footer">
+    <div class="hash">#VISITSEDONA</div>
     <div class="footer-social">
      <ul>
-        <li><a class="social-button" href="#"><span class="visually-hidden">Твитер</span>
-          <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <li><a class="social-button" href="https://twitter.com"><span class="visually-hidden">Твитер</span>
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           	 width="17px" height="15px" viewBox="0 0 17 15" enable-background="new 0 0 17 15" xml:space="preserve">
-          <image overflow="visible" width="17" height="15" xlink:href="t.png" >
+          <image overflow="visible" width="17" height="15" xlink:href="t.png">
           </image>
           <g id="W6EeEF_1_">
           	<g>
@@ -141,13 +150,13 @@
           </g>
           </svg>
         </a></li>
-        <li><a class="social-button" href="#"><span class="visually-hidden">Фейсбук</span>
+        <li><a class="social-button" href="https://ru-ru.facebook.com"><span class="visually-hidden">Фейсбук</span>
           <svg version="1.1" id="Layer_2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           	 width="12px" height="22px" viewBox="0 0 12 22" enable-background="new 0 0 12 22" xml:space="preserve">
           <path fill="#FFFFFF" d="M12,4V0H8C5.791,0,4,1.791,4,4v4H0v4h4v10h4V12h4V8H8V4H12z"/>
           </svg>
         </a></li>
-        <li><a class="social-button" href="#"><span class="visually-hidden">Ютюб</span>
+        <li><a class="social-button" href="www.youtube.com"><span class="visually-hidden">Ютюб</span>
           <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
           	 width="20px" height="16px" viewBox="0 0 20 16" enable-background="new 0 0 20 16" xml:space="preserve">
           <image overflow="visible" width="20" height="16" xlink:href="youtube.png">
@@ -158,10 +167,14 @@
         </a></li>
      </ul>
    </div>
-    <span class="made">WEBSITE by</span>
-        <a href="https://htmlacademy.ru">
+    <div class="made">
+      <div class="by">
+      WEBSITE by
+      </div>
+        <a class="academy" href="https://htmlacademy.ru/intensive/htmlcss">
             <img src="img/logo_name.png" alt="webside by html academy" width="115" height="41">
         </a>
+    </div>
       </div>
       </footer>
   </body>
